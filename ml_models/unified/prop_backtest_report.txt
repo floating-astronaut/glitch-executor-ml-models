@@ -1,0 +1,10 @@
+Prop Strategy Backtest Report
+Strategy proxy: all labeled Taipan XAUUSD trades plus all labeled Anaconda USDJPY trades
+Assumptions: closed-trade rows do not preserve original trigger tags, so the audited asset slices are used as a proxy; 100000 starting balance, 0.25% risk per trade, 2% daily stop, 8% total stop, 1 position per symbol
+Trades processed: 5
+Total return: -0.3487%
+Max drawdown: -0.3529%
+Sharpe ratio: -1.9451
+Win rate: 20.0000%
+Profit factor: 0.0119
+Target hit date: not reached

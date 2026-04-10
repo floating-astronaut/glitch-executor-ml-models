@@ -1,0 +1,25 @@
+Model: hydra_signal_quality_retrained
+Samples: 179
+Train rows: 143
+Test rows: 36
+Accuracy: 0.5556
+Precision: 0.7222
+Recall: 0.5417
+CV mean accuracy: 0.6312698412698412
+CV std accuracy: 0.036771306745178985
+Top feature importance:
+- tp_price: 0.174380
+- atr: 0.163526
+- sl_price: 0.152590
+- entry_price: 0.147414
+- session_phase_London: 0.123842
+- spread: 0.115561
+- session_phase_New_York: 0.106988
+- symbol_XAUUSD: 0.009570
+- symbol_EURUSD: 0.006129
+- confidence: 0.000000
+- rsi: 0.000000
+- adx: 0.000000
+- bot_hydra: 0.000000
+- ml_confidence: 0.000000
+- price_position_in_bb: 0.000000

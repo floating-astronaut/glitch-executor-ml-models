@@ -1,0 +1,45 @@
+Unified Ensemble Meta-Model Training Report
+Rows used: 451
+Train rows: 360
+Test rows: 91
+
+XGBoost classifier
+- Accuracy: 0.7473
+- Precision: 0.7692
+- Recall: 0.6818
+- CV accuracy mean: 0.6963
+- CV accuracy std: 0.0347
+- Confusion matrix: [[38, 9], [14, 30]]
+
+XGBoost regressor
+- RMSE: 390054.435914
+- R2: 0.480522
+
+LightGBM classifier
+- Accuracy: 0.7912
+- Precision: 0.8378
+- Recall: 0.7045
+- CV accuracy mean: 0.7030
+- CV accuracy std: 0.0301
+
+Top 20 features
+- adx: shap=1.621784, xgb=0.088353
+- rsi: shap=0.537256, xgb=0.037809
+- sl_price: shap=0.446715, xgb=0.032320
+- entry_price: shap=0.441191, xgb=0.030813
+- atr: shap=0.436033, xgb=0.029293
+- volume_ratio: shap=0.327884, xgb=0.034946
+- tp_price: shap=0.325442, xgb=0.029349
+- spread: shap=0.180711, xgb=0.029466
+- bot_viper: shap=0.157444, xgb=0.179537
+- session_phase_London: shap=0.091857, xgb=0.026574
+- session_phase_New_York: shap=0.082503, xgb=0.023424
+- session_phase_Asian: shap=0.053417, xgb=0.019432
+- price_position_in_bb: shap=0.046847, xgb=0.077532
+- bot_hydra: shap=0.045980, xgb=0.035519
+- bot_anaconda: shap=0.044983, xgb=0.029405
+- symbol_USDJPY: shap=0.039730, xgb=0.033724
+- confidence: shap=0.038552, xgb=0.062222
+- direction_SELL: shap=0.013895, xgb=0.020238
+- bot_cobra: shap=0.009898, xgb=0.019008
+- symbol_XAUUSD: shap=0.008256, xgb=0.082671

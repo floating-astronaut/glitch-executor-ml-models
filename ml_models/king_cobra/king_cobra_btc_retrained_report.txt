@@ -1,0 +1,25 @@
+Model: king_cobra_btc_retrained
+Samples: 41
+Train rows: 32
+Test rows: 9
+Accuracy: 0.6667
+Precision: 0.5000
+Recall: 0.3333
+CV mean accuracy: 0.8305555555555555
+CV std accuracy: 0.09638528651609707
+Top feature importance:
+- adx: 0.277379
+- rsi: 0.267489
+- h1_trend_BUY: 0.094513
+- atr: 0.081844
+- spread: 0.067549
+- direction_BUY: 0.053984
+- volume_ratio: 0.035132
+- entry_price: 0.031518
+- sl_price: 0.031236
+- session_phase_Asian: 0.024266
+- tp_price: 0.017745
+- session_phase_London: 0.013543
+- h1_trend_SELL: 0.003801
+- bot_nan: 0.000000
+- bot_king_cobra: 0.000000

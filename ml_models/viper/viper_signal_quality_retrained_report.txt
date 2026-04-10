@@ -1,0 +1,25 @@
+Model: viper_signal_quality_retrained
+Samples: 30
+Train rows: 24
+Test rows: 6
+Accuracy: 0.8333
+Precision: 0.0000
+Recall: 0.0000
+CV mean accuracy: 0.8333333333333334
+CV std accuracy: 0.0
+Top feature importance:
+- entry_price: 0.244558
+- tp_price: 0.202811
+- sl_price: 0.192643
+- atr: 0.187139
+- spread: 0.087806
+- session_phase_New_York: 0.048417
+- session_phase_London: 0.036626
+- adx: 0.000000
+- volume_ratio: 0.000000
+- confidence: 0.000000
+- rsi: 0.000000
+- ml_confidence: 0.000000
+- price_position_in_bb: 0.000000
+- bot_viper: 0.000000
+- bot_nan: 0.000000
