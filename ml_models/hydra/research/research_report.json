@@ -1,0 +1,104 @@
+{
+  "total_bars": 104777,
+  "date_range": {
+    "start": "2025-12-09 20:13:00+00:00",
+    "end": "2026-03-25 10:47:00+00:00"
+  },
+  "merge_stats": {
+    "terminal_m1_unique": 101657,
+    "supermodel_m1_unique": 8059,
+    "merged_m1_unique": 104777
+  },
+  "m5_bars": 105139,
+  "h1_bars": 99999,
+  "total_indicators": 70,
+  "recommended_count": 25,
+  "xgboost_backend": "gpu",
+  "label_distribution": {
+    "SELL": 31540,
+    "HOLD": 39461,
+    "BUY": 33566
+  },
+  "top_20": [
+    {
+      "name": "m5_rsi",
+      "combined_rank": 3.6666666666666665
+    },
+    {
+      "name": "h1_rsi",
+      "combined_rank": 4.333333333333333
+    },
+    {
+      "name": "m5_macd_hist",
+      "combined_rank": 5.0
+    },
+    {
+      "name": "h1_macd_hist",
+      "combined_rank": 9.666666666666666
+    },
+    {
+      "name": "h1_adx",
+      "combined_rank": 9.666666666666666
+    },
+    {
+      "name": "obv",
+      "combined_rank": 14.333333333333334
+    },
+    {
+      "name": "bb_20_10_pctb",
+      "combined_rank": 14.333333333333334
+    },
+    {
+      "name": "m5_adx",
+      "combined_rank": 16.333333333333332
+    },
+    {
+      "name": "kc_position",
+      "combined_rank": 17.666666666666668
+    },
+    {
+      "name": "h1_trend",
+      "combined_rank": 20.666666666666668
+    },
+    {
+      "name": "vol_regime",
+      "combined_rank": 21.333333333333332
+    },
+    {
+      "name": "bb_20_20_pctb",
+      "combined_rank": 22.333333333333332
+    },
+    {
+      "name": "donchian_20_width",
+      "combined_rank": 22.333333333333332
+    },
+    {
+      "name": "m5_trend",
+      "combined_rank": 22.666666666666668
+    },
+    {
+      "name": "roc_5",
+      "combined_rank": 22.666666666666668
+    },
+    {
+      "name": "stoch_k_14",
+      "combined_rank": 22.666666666666668
+    },
+    {
+      "name": "cci_20",
+      "combined_rank": 23.0
+    },
+    {
+      "name": "williams_r_14",
+      "combined_rank": 24.0
+    },
+    {
+      "name": "roc_20",
+      "combined_rank": 26.333333333333332
+    },
+    {
+      "name": "cci_14",
+      "combined_rank": 27.0
+    }
+  ]
+}

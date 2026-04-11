@@ -1,0 +1,73 @@
+{
+  "asset": "brent",
+  "display": "BRENT",
+  "bars_trained": 99999,
+  "date_range": [
+    "2024-09-20 10:25:00+00:00",
+    "2026-03-31 07:15:00+00:00"
+  ],
+  "feature_count": 49,
+  "train_accuracy": 0.5169925075362427,
+  "test_accuracy": 0.3629359083404213,
+  "gpu_used": true,
+  "label_thresholds": {
+    "up_atr_multiplier": 1.2,
+    "net_atr_multiplier": 0.2,
+    "distribution": {
+      "SELL": 32.81,
+      "HOLD": 33.61,
+      "BUY": 33.58
+    }
+  },
+  "classification_report": {
+    "SELL": {
+      "precision": 0.3380050964688751,
+      "recall": 0.29244094488188976,
+      "f1-score": 0.31357649442755825,
+      "support": 6350.0
+    },
+    "HOLD": {
+      "precision": 0.3904631132193234,
+      "recall": 0.46279035360260395,
+      "f1-score": 0.4235612728503724,
+      "support": 6759.0
+    },
+    "BUY": {
+      "precision": 0.3500462820117248,
+      "recall": 0.3298924105844722,
+      "f1-score": 0.33967065868263474,
+      "support": 6878.0
+    },
+    "accuracy": 0.3629359083404213,
+    "macro avg": {
+      "precision": 0.35950483056664106,
+      "recall": 0.36170790302298866,
+      "f1-score": 0.35893614198685514,
+      "support": 19987.0
+    },
+    "weighted avg": {
+      "precision": 0.3598884711314057,
+      "recall": 0.3629359083404213,
+      "f1-score": 0.3597496459313465,
+      "support": 19987.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      1857,
+      2283,
+      2210
+    ],
+    [
+      1628,
+      3128,
+      2003
+    ],
+    [
+      2009,
+      2600,
+      2269
+    ]
+  ],
+  "model_path": "C:\\Users\\Administrator\\.openclaw\\workspace\\models\\brent_xgb_model.pkl"
+}

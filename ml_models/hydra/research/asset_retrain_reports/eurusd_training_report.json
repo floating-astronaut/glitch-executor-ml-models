@@ -1,0 +1,73 @@
+{
+  "asset": "eurusd",
+  "display": "EURUSD",
+  "bars_trained": 200285,
+  "date_range": [
+    "2023-04-24 10:35:00+00:00",
+    "2026-03-31 07:15:00+00:00"
+  ],
+  "feature_count": 49,
+  "train_accuracy": 0.4832933772849865,
+  "test_accuracy": 0.3918189991009889,
+  "gpu_used": true,
+  "label_thresholds": {
+    "up_atr_multiplier": 1.0,
+    "net_atr_multiplier": 0.15,
+    "distribution": {
+      "SELL": 36.81,
+      "HOLD": 26.02,
+      "BUY": 37.18
+    }
+  },
+  "classification_report": {
+    "SELL": {
+      "precision": 0.38886418215778706,
+      "recall": 0.588346117615395,
+      "f1-score": 0.4682446181857128,
+      "support": 14862.0
+    },
+    "HOLD": {
+      "precision": 0.4563328760859625,
+      "recall": 0.09490300494484595,
+      "f1-score": 0.1571282374242305,
+      "support": 10516.0
+    },
+    "BUY": {
+      "precision": 0.3869624617786741,
+      "recall": 0.405563889267694,
+      "f1-score": 0.39604487798381993,
+      "support": 14666.0
+    },
+    "accuracy": 0.3918189991009889,
+    "macro avg": {
+      "precision": 0.4107198400074745,
+      "recall": 0.36293767060931165,
+      "f1-score": 0.3404725778645877,
+      "support": 40044.0
+    },
+    "weighted avg": {
+      "precision": 0.4058857123313117,
+      "recall": 0.3918189991009889,
+      "f1-score": 0.36009904706672596,
+      "support": 40044.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      8744,
+      574,
+      5544
+    ],
+    [
+      5639,
+      998,
+      3879
+    ],
+    [
+      8103,
+      615,
+      5948
+    ]
+  ],
+  "model_path": "C:\\Users\\Administrator\\.openclaw\\workspace\\models\\eurusd_xgb_model.pkl"
+}

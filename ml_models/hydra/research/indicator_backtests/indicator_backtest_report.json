@@ -1,0 +1,254 @@
+{
+  "XAU": {
+    "config": {
+      "sl_atr": 1.0,
+      "tp_atr": 1.0,
+      "max_hold": 10
+    },
+    "bars": 104777,
+    "date_range": [
+      "2025-12-09 20:13:00+00:00",
+      "2026-03-25 10:47:00+00:00"
+    ],
+    "best_by_win_rate": [
+      {
+        "asset": "XAU",
+        "strategy": "stoch_reversal",
+        "trades": 7898,
+        "win_rate": 0.5145606482653836,
+        "avg_r": 0.028679867836861297,
+        "total_r": 226.51359617553052,
+        "profit_factor": 1.0598564368769205,
+        "max_drawdown_r": -47.510055656962635,
+        "avg_bars_held": 2.961635857179033
+      },
+      {
+        "asset": "XAU",
+        "strategy": "bb_rsi_combo",
+        "trades": 3347,
+        "win_rate": 0.5126979384523453,
+        "avg_r": 0.02641186153756836,
+        "total_r": 88.4005005662413,
+        "profit_factor": 1.055009353397643,
+        "max_drawdown_r": -33.30653508721985,
+        "avg_bars_held": 2.9614580221093516
+      },
+      {
+        "asset": "XAU",
+        "strategy": "cci_reversal",
+        "trades": 8384,
+        "win_rate": 0.5095419847328244,
+        "avg_r": 0.01668739417840522,
+        "total_r": 139.90711279174934,
+        "profit_factor": 1.034558198684675,
+        "max_drawdown_r": -45.22003339395528,
+        "avg_bars_held": 3.1595896946564888
+      },
+      {
+        "asset": "XAU",
+        "strategy": "rsi_reversal_30_70",
+        "trades": 2266,
+        "win_rate": 0.5088261253309797,
+        "avg_r": 0.013702146555082355,
+        "total_r": 31.049064093816618,
+        "profit_factor": 1.0282269524436136,
+        "max_drawdown_r": -65.65467790874537,
+        "avg_bars_held": 3.145631067961165
+      },
+      {
+        "asset": "XAU",
+        "strategy": "bollinger_reversion",
+        "trades": 5474,
+        "win_rate": 0.5087687248812568,
+        "avg_r": 0.018113392055929555,
+        "total_r": 99.15270811415839,
+        "profit_factor": 1.0374013041816832,
+        "max_drawdown_r": -73.35149669881193,
+        "avg_bars_held": 3.0191815856777495
+      }
+    ],
+    "best_by_profit_factor": [
+      {
+        "asset": "XAU",
+        "strategy": "stoch_reversal",
+        "trades": 7898,
+        "win_rate": 0.5145606482653836,
+        "avg_r": 0.028679867836861297,
+        "total_r": 226.51359617553052,
+        "profit_factor": 1.0598564368769205,
+        "max_drawdown_r": -47.510055656962635,
+        "avg_bars_held": 2.961635857179033
+      },
+      {
+        "asset": "XAU",
+        "strategy": "bb_rsi_combo",
+        "trades": 3347,
+        "win_rate": 0.5126979384523453,
+        "avg_r": 0.02641186153756836,
+        "total_r": 88.4005005662413,
+        "profit_factor": 1.055009353397643,
+        "max_drawdown_r": -33.30653508721985,
+        "avg_bars_held": 2.9614580221093516
+      },
+      {
+        "asset": "XAU",
+        "strategy": "bollinger_reversion",
+        "trades": 5474,
+        "win_rate": 0.5087687248812568,
+        "avg_r": 0.018113392055929555,
+        "total_r": 99.15270811415839,
+        "profit_factor": 1.0374013041816832,
+        "max_drawdown_r": -73.35149669881193,
+        "avg_bars_held": 3.0191815856777495
+      },
+      {
+        "asset": "XAU",
+        "strategy": "cci_reversal",
+        "trades": 8384,
+        "win_rate": 0.5095419847328244,
+        "avg_r": 0.01668739417840522,
+        "total_r": 139.90711279174934,
+        "profit_factor": 1.034558198684675,
+        "max_drawdown_r": -45.22003339395528,
+        "avg_bars_held": 3.1595896946564888
+      },
+      {
+        "asset": "XAU",
+        "strategy": "rsi_reversal_30_70",
+        "trades": 2266,
+        "win_rate": 0.5088261253309797,
+        "avg_r": 0.013702146555082355,
+        "total_r": 31.049064093816618,
+        "profit_factor": 1.0282269524436136,
+        "max_drawdown_r": -65.65467790874537,
+        "avg_bars_held": 3.145631067961165
+      }
+    ]
+  },
+  "BTC": {
+    "config": {
+      "sl_atr": 1.0,
+      "tp_atr": 1.0,
+      "max_hold": 6
+    },
+    "bars": 100035,
+    "date_range": [
+      "2025-04-12 04:05:00+00:00",
+      "2026-03-25 12:40:00+00:00"
+    ],
+    "best_by_win_rate": [
+      {
+        "asset": "BTC",
+        "strategy": "stoch_reversal",
+        "trades": 8187,
+        "win_rate": 0.5249786246488335,
+        "avg_r": 0.04810674929281662,
+        "total_r": 393.84995646028966,
+        "profit_factor": 1.1073144396502475,
+        "max_drawdown_r": -39.762966851274655,
+        "avg_bars_held": 2.8090875778673507
+      },
+      {
+        "asset": "BTC",
+        "strategy": "bb_rsi_combo",
+        "trades": 3270,
+        "win_rate": 0.5103975535168196,
+        "avg_r": 0.02146222907389108,
+        "total_r": 70.18148907162383,
+        "profit_factor": 1.0466223787300004,
+        "max_drawdown_r": -40.09051697520988,
+        "avg_bars_held": 2.8238532110091743
+      },
+      {
+        "asset": "BTC",
+        "strategy": "cci_reversal",
+        "trades": 9303,
+        "win_rate": 0.5069332473395679,
+        "avg_r": 0.01323247688506958,
+        "total_r": 123.1017324618023,
+        "profit_factor": 1.0287443307523956,
+        "max_drawdown_r": -60.49049008797817,
+        "avg_bars_held": 2.9015371385574547
+      },
+      {
+        "asset": "BTC",
+        "strategy": "rsi_reversal_30_70",
+        "trades": 2164,
+        "win_rate": 0.506007393715342,
+        "avg_r": 0.005820905442059382,
+        "total_r": 12.596439376616502,
+        "profit_factor": 1.012765221360889,
+        "max_drawdown_r": -90.05434727787359,
+        "avg_bars_held": 2.979205175600739
+      },
+      {
+        "asset": "BTC",
+        "strategy": "bollinger_reversion",
+        "trades": 5662,
+        "win_rate": 0.503885552808195,
+        "avg_r": 0.012528595540394833,
+        "total_r": 70.93690794971555,
+        "profit_factor": 1.0270912429144943,
+        "max_drawdown_r": -58.385559914418636,
+        "avg_bars_held": 2.8557046979865772
+      }
+    ],
+    "best_by_profit_factor": [
+      {
+        "asset": "BTC",
+        "strategy": "stoch_reversal",
+        "trades": 8187,
+        "win_rate": 0.5249786246488335,
+        "avg_r": 0.04810674929281662,
+        "total_r": 393.84995646028966,
+        "profit_factor": 1.1073144396502475,
+        "max_drawdown_r": -39.762966851274655,
+        "avg_bars_held": 2.8090875778673507
+      },
+      {
+        "asset": "BTC",
+        "strategy": "bb_rsi_combo",
+        "trades": 3270,
+        "win_rate": 0.5103975535168196,
+        "avg_r": 0.02146222907389108,
+        "total_r": 70.18148907162383,
+        "profit_factor": 1.0466223787300004,
+        "max_drawdown_r": -40.09051697520988,
+        "avg_bars_held": 2.8238532110091743
+      },
+      {
+        "asset": "BTC",
+        "strategy": "cci_reversal",
+        "trades": 9303,
+        "win_rate": 0.5069332473395679,
+        "avg_r": 0.01323247688506958,
+        "total_r": 123.1017324618023,
+        "profit_factor": 1.0287443307523956,
+        "max_drawdown_r": -60.49049008797817,
+        "avg_bars_held": 2.9015371385574547
+      },
+      {
+        "asset": "BTC",
+        "strategy": "bollinger_reversion",
+        "trades": 5662,
+        "win_rate": 0.503885552808195,
+        "avg_r": 0.012528595540394833,
+        "total_r": 70.93690794971555,
+        "profit_factor": 1.0270912429144943,
+        "max_drawdown_r": -58.385559914418636,
+        "avg_bars_held": 2.8557046979865772
+      },
+      {
+        "asset": "BTC",
+        "strategy": "rsi_reversal_30_70",
+        "trades": 2164,
+        "win_rate": 0.506007393715342,
+        "avg_r": 0.005820905442059382,
+        "total_r": 12.596439376616502,
+        "profit_factor": 1.012765221360889,
+        "max_drawdown_r": -90.05434727787359,
+        "avg_bars_held": 2.979205175600739
+      }
+    ]
+  }
+}

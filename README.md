@@ -11,6 +11,7 @@ This repository exists to:
 - preserve trained model artifacts and checkpoints
 - keep production-ready and research models separate from raw datasets
 - centralize unified ensemble outputs
+- preserve training reports, feature manifests, and model metadata
 - make future retrains and model versioning easier to manage
 
 ## Privacy Rule
@@ -21,13 +22,14 @@ Do not publish it, mirror it, or copy it into any public Glitch repository.
 
 ## Current Model Set
 
-- Approximate current size: `57.84 MB`
+- Approximate current size: `75.19 MB`
 - Current sources:
   - `viper`
   - `hydra`
   - `king_cobra`
   - `shared`
   - `unified`
+- Metadata and report snapshots now include Hydra research reports and King Cobra `pro_modules` model exports
 - Inventory: [docs/model-inventory.md](./docs/model-inventory.md)
 
 ## Structure

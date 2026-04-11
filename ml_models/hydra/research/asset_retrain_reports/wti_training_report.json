@@ -1,0 +1,73 @@
+{
+  "asset": "wti",
+  "display": "WTI",
+  "bars_trained": 99999,
+  "date_range": [
+    "2024-10-29 13:35:00+00:00",
+    "2026-03-31 07:15:00+00:00"
+  ],
+  "feature_count": 49,
+  "train_accuracy": 0.5195817228914156,
+  "test_accuracy": 0.3757942662730775,
+  "gpu_used": true,
+  "label_thresholds": {
+    "up_atr_multiplier": 1.2,
+    "net_atr_multiplier": 0.2,
+    "distribution": {
+      "SELL": 32.98,
+      "HOLD": 33.56,
+      "BUY": 33.46
+    }
+  },
+  "classification_report": {
+    "SELL": {
+      "precision": 0.34291543026706234,
+      "recall": 0.2941457206490614,
+      "f1-score": 0.31666381229662616,
+      "support": 6286.0
+    },
+    "HOLD": {
+      "precision": 0.398592942728372,
+      "recall": 0.5324522760646109,
+      "f1-score": 0.4558999182749733,
+      "support": 6810.0
+    },
+    "BUY": {
+      "precision": 0.3703164787195344,
+      "recall": 0.29545784356406907,
+      "f1-score": 0.3286786665590443,
+      "support": 6891.0
+    },
+    "accuracy": 0.3757942662730775,
+    "macro avg": {
+      "precision": 0.37060828390498957,
+      "recall": 0.3740186134259138,
+      "f1-score": 0.3670807990435479,
+      "support": 19987.0
+    },
+    "weighted avg": {
+      "precision": 0.37133312600666823,
+      "recall": 0.3757942662730775,
+      "f1-score": 0.3682469534601258,
+      "support": 19987.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      1849,
+      2597,
+      1840
+    ],
+    [
+      1562,
+      3626,
+      1622
+    ],
+    [
+      1981,
+      2874,
+      2036
+    ]
+  ],
+  "model_path": "C:\\Users\\Administrator\\.openclaw\\workspace\\models\\wti_xgb_model.pkl"
+}

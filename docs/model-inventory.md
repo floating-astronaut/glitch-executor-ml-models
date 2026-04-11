@@ -4,7 +4,7 @@ Current trained-model inventory for the private Glitch models repository.
 
 ## Summary
 
-- Approximate size: `57.84 MB`
+- Approximate size: `75.19 MB`
 - Top-level model families:
   - `viper`
   - `hydra`
@@ -37,3 +37,5 @@ Current trained-model inventory for the private Glitch models repository.
 - Some model families exist both as primary working copies and dated backups.
 - Unified outputs include both binary classification and regression artifacts.
 - This repo should stay model-focused; raw CSV research data belongs in the separate private ML data repo.
+- `ml_models/king_cobra/pro_modules` preserves feature manifests, supermodel JSON exports, and training reports from the research pipeline.
+- `ml_models/hydra/research` now includes JSON retrain summaries, indicator backtest reports, and backup metadata alongside saved model artifacts.

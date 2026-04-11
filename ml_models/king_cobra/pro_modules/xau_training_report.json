@@ -1,0 +1,447 @@
+{
+  "rows_for_training": 115647,
+  "date_range": [
+    "2026-03-05 07:03:15.252124+00:00",
+    "2026-03-31 03:29:11.215603+00:00"
+  ],
+  "label_distribution_pct": {
+    "SELL": 21.46,
+    "HOLD": 58.4,
+    "BUY": 20.14
+  },
+  "label_thresholds": {
+    "up_atr": 0.6,
+    "dominance": 1.0,
+    "net_atr": 0.05,
+    "distribution": {
+      "0": 0.5840186083512758,
+      "-1": 0.21460997691250097,
+      "1": 0.20137141473622316
+    }
+  },
+  "gpu_used": true,
+  "balanced_sample_weights": true,
+  "xgboost_build_info": {
+    "BUILTIN_PREFETCH_PRESENT": false,
+    "CUDA_VERSION": [
+      12,
+      9
+    ],
+    "DEBUG": false,
+    "MM_PREFETCH_PRESENT": true,
+    "THRUST_VERSION": [
+      2,
+      8,
+      2
+    ],
+    "USE_CUDA": true,
+    "USE_DLOPEN_NCCL": false,
+    "USE_FEDERATED": false,
+    "USE_NCCL": false,
+    "USE_NVCOMP": false,
+    "USE_OPENMP": true,
+    "USE_RMM": false,
+    "libxgboost": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\xgboost\\lib\\xgboost.dll"
+  },
+  "fold_reports": [
+    {
+      "fold": 1,
+      "report": {
+        "SELL": {
+          "precision": 0.37771323754203606,
+          "recall": 0.606827111984283,
+          "f1-score": 0.4656114565667986,
+          "support": 4072.0
+        },
+        "HOLD": {
+          "precision": 0.7922761849034523,
+          "recall": 0.24221824686940965,
+          "f1-score": 0.37100972735991233,
+          "support": 11180.0
+        },
+        "BUY": {
+          "precision": 0.3467897788275714,
+          "recall": 0.8030830432620587,
+          "f1-score": 0.4844031193761248,
+          "support": 4022.0
+        },
+        "accuracy": 0.43628722631524336,
+        "macro avg": {
+          "precision": 0.5055930670910199,
+          "recall": 0.5507094673719171,
+          "f1-score": 0.4403414344342786,
+          "support": 19274.0
+        },
+        "weighted avg": {
+          "precision": 0.6117300270279268,
+          "recall": 0.43628722631524336,
+          "f1-score": 0.41465850104568835,
+          "support": 19274.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          2471,
+          445,
+          1156
+        ],
+        [
+          3544,
+          2708,
+          4928
+        ],
+        [
+          527,
+          265,
+          3230
+        ]
+      ]
+    },
+    {
+      "fold": 2,
+      "report": {
+        "SELL": {
+          "precision": 0.44885679903730447,
+          "recall": 0.20194910665944776,
+          "f1-score": 0.27856609410007466,
+          "support": 3694.0
+        },
+        "HOLD": {
+          "precision": 0.7868049225159526,
+          "recall": 0.565983606557377,
+          "f1-score": 0.6583714721586575,
+          "support": 12200.0
+        },
+        "BUY": {
+          "precision": 0.32582616568583067,
+          "recall": 0.8517751479289941,
+          "f1-score": 0.47134905042567127,
+          "support": 3380.0
+        },
+        "accuracy": 0.5463318460101692,
+        "macro avg": {
+          "precision": 0.5204959624130292,
+          "recall": 0.5399026203819396,
+          "f1-score": 0.4694288722281345,
+          "support": 19274.0
+        },
+        "weighted avg": {
+          "precision": 0.6411948485190688,
+          "recall": 0.5463318460101692,
+          "f1-score": 0.5527817216135762,
+          "support": 19274.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          746,
+          1452,
+          1496
+        ],
+        [
+          834,
+          6905,
+          4461
+        ],
+        [
+          82,
+          419,
+          2879
+        ]
+      ]
+    },
+    {
+      "fold": 3,
+      "report": {
+        "SELL": {
+          "precision": 0.44401011726833756,
+          "recall": 0.3897860314897053,
+          "f1-score": 0.41513490271955283,
+          "support": 4954.0
+        },
+        "HOLD": {
+          "precision": 0.6960066555740433,
+          "recall": 0.41717363119577144,
+          "f1-score": 0.5216686412670699,
+          "support": 10027.0
+        },
+        "BUY": {
+          "precision": 0.360179472798654,
+          "recall": 0.7479617982762636,
+          "f1-score": 0.4862204724409449,
+          "support": 4293.0
+        },
+        "accuracy": 0.48381238974784685,
+        "macro avg": {
+          "precision": 0.5000654152136783,
+          "recall": 0.5183071536539134,
+          "f1-score": 0.4743413388091892,
+          "support": 19274.0
+        },
+        "weighted avg": {
+          "precision": 0.5564353706087423,
+          "recall": 0.48381238974784685,
+          "f1-score": 0.4863906953536656,
+          "support": 19274.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          1931,
+          1187,
+          1836
+        ],
+        [
+          1976,
+          4183,
+          3868
+        ],
+        [
+          442,
+          640,
+          3211
+        ]
+      ]
+    },
+    {
+      "fold": 4,
+      "report": {
+        "SELL": {
+          "precision": 0.446873932353946,
+          "recall": 0.3067542213883677,
+          "f1-score": 0.3637880684188569,
+          "support": 4264.0
+        },
+        "HOLD": {
+          "precision": 0.7603219942871982,
+          "recall": 0.5294277190127475,
+          "f1-score": 0.6242072163300112,
+          "support": 11061.0
+        },
+        "BUY": {
+          "precision": 0.3684210526315789,
+          "recall": 0.8065332995695113,
+          "f1-score": 0.50579641098936,
+          "support": 3949.0
+        },
+        "accuracy": 0.5369409567292726,
+        "macro avg": {
+          "precision": 0.5252056597575744,
+          "recall": 0.5475717466568755,
+          "f1-score": 0.4979305652460761,
+          "support": 19274.0
+        },
+        "weighted avg": {
+          "precision": 0.610682098329876,
+          "recall": 0.5369409567292726,
+          "f1-score": 0.5423336292705843,
+          "support": 19274.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          1308,
+          1311,
+          1645
+        ],
+        [
+          1390,
+          5856,
+          3815
+        ],
+        [
+          229,
+          535,
+          3185
+        ]
+      ]
+    },
+    {
+      "fold": 5,
+      "report": {
+        "SELL": {
+          "precision": 0.39736269711799893,
+          "recall": 0.6928182033657265,
+          "f1-score": 0.5050539956803456,
+          "support": 4219.0
+        },
+        "HOLD": {
+          "precision": 0.8597951344430218,
+          "recall": 0.36787801314828344,
+          "f1-score": 0.5152832843074562,
+          "support": 10952.0
+        },
+        "BUY": {
+          "precision": 0.40182522123893805,
+          "recall": 0.7082622471362418,
+          "f1-score": 0.5127481252756948,
+          "support": 4103.0
+        },
+        "accuracy": 0.5114662239286085,
+        "macro avg": {
+          "precision": 0.5529943509333196,
+          "recall": 0.5896528212167506,
+          "f1-score": 0.5110284684211656,
+          "support": 19274.0
+        },
+        "weighted avg": {
+          "precision": 0.661079091745573,
+          "recall": 0.5114662239286085,
+          "f1-score": 0.5125044565485531,
+          "support": 19274.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          2923,
+          340,
+          956
+        ],
+        [
+          3553,
+          4029,
+          3370
+        ],
+        [
+          880,
+          317,
+          2906
+        ]
+      ]
+    }
+  ],
+  "final_report": {
+    "SELL": {
+      "precision": 0.3993566176470588,
+      "recall": 0.6830418549813323,
+      "f1-score": 0.5040237801783514,
+      "support": 5089.0
+    },
+    "HOLD": {
+      "precision": 0.8417732609076573,
+      "recall": 0.36499012308159856,
+      "f1-score": 0.5091949758863745,
+      "support": 13162.0
+    },
+    "BUY": {
+      "precision": 0.3986695721986466,
+      "recall": 0.7124410739905719,
+      "f1-score": 0.5112516546550964,
+      "support": 4879.0
+    },
+    "accuracy": 0.5082576740164289,
+    "macro avg": {
+      "precision": 0.5465998169177876,
+      "recall": 0.5868243506845009,
+      "f1-score": 0.5081568035732741,
+      "support": 23130.0
+    },
+    "weighted avg": {
+      "precision": 0.6509664647656579,
+      "recall": 0.5082576740164289,
+      "f1-score": 0.5084910554693605,
+      "support": 23130.0
+    }
+  },
+  "final_confusion_matrix": [
+    [
+      3476,
+      498,
+      1115
+    ],
+    [
+      4230,
+      4804,
+      4128
+    ],
+    [
+      998,
+      405,
+      3476
+    ]
+  ],
+  "top_features": [
+    [
+      "bb_pos",
+      91.21528625488281
+    ],
+    [
+      "price_dist_ema_20_atr",
+      81.21710968017578
+    ],
+    [
+      "bb_width",
+      39.574981689453125
+    ],
+    [
+      "higher_highs_10",
+      39.19915771484375
+    ],
+    [
+      "timeframe_minutes",
+      36.249752044677734
+    ],
+    [
+      "consecutive_bearish",
+      28.748153686523438
+    ],
+    [
+      "plus_di_14",
+      26.819116592407227
+    ],
+    [
+      "atr_roc",
+      24.345293045043945
+    ],
+    [
+      "minus_di_14",
+      24.110095977783203
+    ],
+    [
+      "lower_lows_10",
+      22.741376876831055
+    ],
+    [
+      "lower_wick_ratio",
+      20.12175750732422
+    ],
+    [
+      "upper_wick_ratio",
+      19.560693740844727
+    ],
+    [
+      "price_dist_ema_8_atr",
+      18.770254135131836
+    ],
+    [
+      "consecutive_bullish",
+      16.91005516052246
+    ],
+    [
+      "h1_trend_dir",
+      12.22838020324707
+    ],
+    [
+      "rsi_14",
+      11.86806583404541
+    ],
+    [
+      "atr_14",
+      11.491494178771973
+    ],
+    [
+      "h1_rsi14",
+      11.248044967651367
+    ],
+    [
+      "ema_50",
+      10.829633712768555
+    ],
+    [
+      "close",
+      9.91757583618164
+    ]
+  ],
+  "model_path": "C:\\Users\\Administrator\\.openclaw\\workspace\\INDIAN KING COBRA\\pro_modules\\models\\xau_xgb_super.json",
+  "features_path": "C:\\Users\\Administrator\\.openclaw\\workspace\\INDIAN KING COBRA\\pro_modules\\models\\xau_features.json"
+}
