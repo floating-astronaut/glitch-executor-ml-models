@@ -1,76 +1,40 @@
-# Glitch Models
+# Glitch Executor ML Models
 
 Private trained-model repository for the Glitch Executor ecosystem.
 
-This repo is intended to hold trained model artifacts, backups, and ensemble outputs that should stay separate from both the public code repositories and the raw ML data repository.
+This repository stores the trained artifact layer derived from Glitch’s raw and cleaned ML datasets: checkpoints, ensemble outputs, metadata, and model-family snapshots that should stay separate from public code and from the raw data repository.
 
-## Purpose
+## Repo Role
 
-This repository exists to:
+This repo exists to preserve:
 
-- preserve trained model artifacts and checkpoints
-- keep production-ready and research models separate from raw datasets
-- centralize unified ensemble outputs
-- preserve training reports, feature manifests, and model metadata
-- make future retrains and model versioning easier to manage
-
-## Privacy Rule
-
-This repository must remain private.
-
-Do not publish it, mirror it, or copy it into any public Glitch repository.
-
-## Current Model Set
-
-- Approximate current size: `75.19 MB`
-- Current sources:
-  - `viper`
-  - `hydra`
-  - `king_cobra`
-  - `shared`
-  - `unified`
-- Metadata and report snapshots now include Hydra research reports and King Cobra `pro_modules` model exports
-- Inventory: [docs/model-inventory.md](./docs/model-inventory.md)
+- trained model artifacts and checkpoints
+- production-ready and research model versions
+- unified ensemble outputs
+- model metadata and report snapshots
+- versioned backups for retrains
 
 ## Structure
 
-```text
-glitch-models-private/
-|-- ml_models/
-|   |-- viper/
-|   |-- hydra/
-|   |-- king_cobra/
-|   |-- shared/
-|   `-- unified/
-`-- docs/
-```
+- `ml_models/` for saved model families and artifacts
+- `docs/` for inventories, report notes, and model organization
 
-## What Belongs Here
+## Privacy
 
-- trained `.pkl`, `.joblib`, `.h5`, `.onnx`, `.model`, `.bin`, `.pt`, `.pth`, `.xgb` artifacts
-- model JSON exports
-- unified ensemble outputs
-- training reports, feature-importance outputs, and SHAP exports tied to saved model versions
+This repository must remain private.
 
-## What Does Not Belong Here
+Do not mirror it to public repos. Do not mix in raw training datasets, secrets, broker state, or unrelated runtime logs.
 
-- raw ML CSV data
-- live broker credentials
-- running bot state
-- logs that are not directly tied to saved model versions
-- Python environments or cache folders
+## Relationship To Other Repos
 
-## Future Model Drops
+- public repos hold architecture and strategy code
+- `glitch-executor-ml-data` holds the raw and cleaned dataset layer
+- this repo holds the trained artifact layer derived from that data
+
+## Working Notes
 
 When adding new model versions:
 
-- preserve bot-level folders where possible
-- use dated backup folders for major retrains
-- keep training reports alongside the model family they describe
-- treat model changes as versioned research assets, not disposable outputs
-
-## Relationship To Other Glitch Repos
-
-- public repos hold architecture and strategy code
-- `glitch-executor-ml-data` holds the raw training and labeled-outcome data
-- this private repo holds the trained artifact layer derived from that data
+- preserve model-family folders where possible
+- keep reports alongside the model family they describe
+- treat retrains as versioned research assets, not disposable outputs
